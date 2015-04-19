@@ -1,0 +1,27 @@
+<head>
+  <title>Belieb-It</title>
+</head>
+
+<body>
+  <h1>Belieb It...Or Not</h1>
+  {{> gameboard}}
+</body>
+
+<template name="gameboard">
+  <div class="hit-counter">
+    <div>
+      The Beebz Has Been Hit
+    </div>
+    <div id="hit-count">
+      {{hits}}
+    </div>
+    <div>
+      Times
+    </div>
+  </div>
+  <div class="container">
+    <div class="the-beib" style="left:{{leftPosition}}; top:{{topPosition}}">
+      <img src="http://www.devleague.com/img/beiber-bad.jpg" width="100px" height="100px">
+    </div> 
+  </div> 
+</template>

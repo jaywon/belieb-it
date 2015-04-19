@@ -1,0 +1,19 @@
+/* CSS declarations go here */
+body, html{
+  width: 100%;
+  height: 100%;
+}
+.container{
+  cursor: url(/images/boxing-glove.png), auto;
+  margin: 25px;
+  width: 80%;
+  height: 80%;
+  border: solid 5px #000;
+  position: relative;
+}
+
+.the-beib{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+}
